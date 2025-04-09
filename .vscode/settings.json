@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Evergreen-Steam-VIrtualLab.sln"
+    "dotnet.defaultSolution": "Evergreen_.sln"
 }
