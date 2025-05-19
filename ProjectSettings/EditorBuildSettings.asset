@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Dashboard.unity
     guid: 067903a04a153dc49ad0df5fb3410406
   - enabled: 1
+    path: Assets/Scenes/Quiz/Uji Diri 1.unity
+    guid: 5605e3dd622d5c144a8e9cfa27660364
+  - enabled: 1
     path: Assets/Scenes/Experiments/akt3.unity
     guid: cc9dd1315005aa247b46b4e58167bcce
   - enabled: 1
