@@ -178,6 +178,16 @@ public class triggerHit : MonoBehaviour
                 }
             }
         }
+        else if (SceneManager.GetActiveScene().name.Equals("akt7"))
+        {
+            if (conditionalCheck.procedurNum == 1)
+            {
+                if (other.gameObject.tag == "action")
+                {
+                    Debug.Log("actionproduct");
+                }
+            }
+        }
     }
 
     private void OnTriggerStay2D(Collider2D other)

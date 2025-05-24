@@ -5,7 +5,8 @@ using UnityEngine.EventSystems;
 
 public class DragController : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDragHandler
 {
-    [SerializeField] private string objectName;
+    [SerializeField]
+    private string objectName;
 
     [SerializeField]
     private Canvas canvas;
@@ -36,6 +37,17 @@ public class DragController : MonoBehaviour, IDragHandler, IEndDragHandler, IBeg
             //        GameObject.Find("cartoon").GetComponent<AudioSource>().Play();
             GetComponent<BoxCollider2D>().enabled = true;
         }
+        else if (objectName.Equals("getahasli"))
+        {
+            Debug.Log("drag");
+            GetComponent<RectTransform>().localRotation = Quaternion.Euler(0, 0, -32f);
+            ;
+            //  Debug.Log("OnBeginDrag");
+            GetComponent<CanvasGroup>().alpha = .8f;
+            GetComponent<CanvasGroup>().blocksRaycasts = true;
+            //        GameObject.Find("cartoon").GetComponent<AudioSource>().Play();
+            GetComponent<BoxCollider2D>().enabled = true;
+        }
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -47,6 +59,7 @@ public class DragController : MonoBehaviour, IDragHandler, IEndDragHandler, IBeg
     public void OnEndDrag(PointerEventData eventData)
     {
         //   Debug.Log("OnEndDrag");
+        GetComponent<RectTransform>().localRotation = Quaternion.Euler(0, 0, 0);
         GetComponent<CanvasGroup>().alpha = 1f;
         GetComponent<CanvasGroup>().blocksRaycasts = true;
 

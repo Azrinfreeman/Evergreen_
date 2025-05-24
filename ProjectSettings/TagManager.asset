@@ -6,6 +6,8 @@ TagManager:
   tags:
   - petridish
   - zigzag
+  - action
+  - trigger
   layers:
   - Default
   - TransparentFX
