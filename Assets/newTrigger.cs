@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class newTrigger : MonoBehaviour
 {
     public List<Transform> itemtodo;
+
+    public bool isAdding;
 
     // Start is called before the first frame update
     void Start() { }
@@ -16,11 +19,30 @@ public class newTrigger : MonoBehaviour
     {
         if (collision.gameObject.tag == "action")
         {
-            for (int i = 0; i < itemtodo.Count; i++)
+            if (!isAdding)
             {
-                itemtodo[i].gameObject.SetActive(true);
+                for (int i = 0; i < itemtodo.Count; i++)
+                {
+                    itemtodo[i].gameObject.SetActive(true);
+                }
+                collision.GetComponent<DragController>().enabled = false;
             }
-            collision.GetComponent<DragController>().enabled = false;
+            else
+            {
+                if (transform.GetChild(3).GetComponent<Image>().fillAmount != 1)
+                {
+                    Debug.Log(transform.name);
+                    transform.GetChild(3).GetComponent<Image>().fillAmount += 0.2f;
+                }
+                else
+                {
+                    for (int i = 0; i < itemtodo.Count; i++)
+                    {
+                        itemtodo[i].gameObject.SetActive(true);
+                    }
+                    collision.transform.GetComponent<DragController>().enabled = false;
+                }
+            }
         }
     }
 }
