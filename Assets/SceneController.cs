@@ -9,18 +9,17 @@ public class SceneController : MonoBehaviour
     {
         Application.Quit();
     }
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
+    // Start is called before the first frame update
+    void Start() { }
 
     // Update is called once per frame
-    void Update()
+    void Update() { }
+
+    public void ReloadScene()
     {
-
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-
 
     public void ChangeScene(string sceneName)
     {

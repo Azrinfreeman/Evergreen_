@@ -15,6 +15,9 @@ public class GetahCollection : MonoBehaviour
         instance = this;
     }
 
+    public Transform fromPrev;
+    public Transform ToNext;
+
     public List<Transform> items;
 
     // Start is called before the first frame update
@@ -36,6 +39,17 @@ public class GetahCollection : MonoBehaviour
         {
             nextButton.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "TUNGGU 2 JAM";
         }
+
+        if (items.Count == 0)
+        {
+            Invoke("NextChapter", 1f);
+        }
+    }
+
+    public void NextChapter()
+    {
+        ToNext.gameObject.SetActive(true);
+        fromPrev.gameObject.SetActive(false);
     }
 
     // Update is called once per frame

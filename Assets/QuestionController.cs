@@ -15,6 +15,8 @@ public class QuestionController : MonoBehaviour
     public TextMeshProUGUI langkahLabel;
     public List<Transform> answerBtn;
     public Transform avatarState;
+
+    public Transform CongratPrompt;
     public int countQuestion;
     public int countStep;
 
@@ -223,7 +225,7 @@ public class QuestionController : MonoBehaviour
         AvatarSmile();
 
         //play animation add coin and change text
-        GameObject.Find("Coin").GetComponent<Animator>().Play("addCoin");
+        //        GameObject.Find("Coin").GetComponent<Animator>().Play("addCoin");
         yield return new WaitForSeconds(1.3f);
         ScoreController.instance.score += 10;
         ScoreController.instance.SetScore();
@@ -240,18 +242,16 @@ public class QuestionController : MonoBehaviour
         showRealAnswer();
         countStep++;
         yield return new WaitForSeconds(3);
-
-        if (
-            countStep < QuestionList.instance.questionlist[countQuestion].QuestionOnAnswersBtn.Count
-        )
+        countQuestion++;
+        if (countQuestion >= QuestionList.instance.questionlist.Count)
         {
             //countStep++;
             // applyQuestion();
-            applyAnswerOnButton();
+            //  applyAnswerOnButton();
+            CongratPrompt.gameObject.SetActive(true);
         }
         else
         {
-            countQuestion++;
             countStep = 0;
             applyQuestion();
             applyAnswerOnButton();

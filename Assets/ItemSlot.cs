@@ -6,10 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class ItemSlot : MonoBehaviour, IDropHandler
 {
-
     public Transform tick;
+
     [Header("Akt6")]
     public string jenisAnodKatod;
+    public Transform ConditionalCheck;
+
+    public string nameScene;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,74 +21,106 @@ public class ItemSlot : MonoBehaviour, IDropHandler
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() { }
 
-    }
     public void OnDrop(PointerEventData eventData)
     {
-        if (!SceneManager.GetActiveScene().Equals("akt6"))
+        nameScene = SceneManager.GetActiveScene().name.ToString();
+        Debug.Log("onDrop");
+        if (!SceneManager.GetActiveScene().name.Equals("akt6"))
         {
-
             //Debug.Log("stuck");
             eventData.pointerDrag.transform.SetParent(transform);
             //eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
             eventData.pointerDrag.transform.localPosition = new Vector3(0, 0, 0);
 
-
             tick.gameObject.SetActive(true);
 
             eventData.pointerDrag.transform.GetComponent<DragController>().enabled = false;
 
+            if (SceneManager.GetActiveScene().name.Equals("akt5"))
+            {
+                eventData.pointerDrag.transform.localPosition = new Vector3(0, 100f, 0);
+            }
         }
         else
         {
             Debug.Log("stuck");
-
         }
     }
 
     void OnTriggerStay2D(Collider2D collision)
     {
-        if (jenisAnodKatod == "anod")
+        if (ConditionalCheck.name == "1")
         {
-            Debug.Log("anod");
-            if (collision.name.Equals("anodElektrod"))
+            if (jenisAnodKatod == "anod")
             {
-                collision.transform.GetComponent<DragController>().enabled = false;
-                //Debug.Log("stuck");
-                collision.transform.SetParent(transform);
-                //eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
-                collision.transform.localPosition = new Vector3(0, 0, 0);
+                Debug.Log("anod");
+                if (collision.name.Equals("anodElektrod"))
+                {
+                    collision.transform.GetComponent<DragController>().enabled = false;
+                    //Debug.Log("stuck");
+                    collision.transform.SetParent(transform);
+                    //eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+                    collision.transform.localPosition = new Vector3(0, 0, 0);
 
+                    tick.gameObject.SetActive(true);
 
-                tick.gameObject.SetActive(true);
+                    //transform.gameObject.SetActive(false);
+                }
+            }
+            else if (jenisAnodKatod == "katod")
+            {
+                Debug.Log("katod");
+                if (collision.name.Equals("katodElektrod"))
+                {
+                    collision.transform.GetComponent<DragController>().enabled = false;
+                    //Debug.Log("stuck");
+                    collision.transform.SetParent(transform);
+                    //eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+                    collision.transform.localPosition = new Vector3(0, 0, 0);
 
-                //transform.gameObject.SetActive(false);
+                    tick.gameObject.SetActive(true);
 
-
+                    //transform.gameObject.SetActive(false);
+                }
             }
         }
-        else if (jenisAnodKatod == "katod")
+        else if (ConditionalCheck.name == "2")
         {
-            Debug.Log("katod");
-            if (collision.name.Equals("katodElektrod"))
+            if (jenisAnodKatod == "anod")
             {
-                collision.transform.GetComponent<DragController>().enabled = false;
-                //Debug.Log("stuck");
-                collision.transform.SetParent(transform);
-                //eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
-                collision.transform.localPosition = new Vector3(0, 0, 0);
+                if (collision.name.Equals("wayarAnod"))
+                {
+                    Debug.Log("anod2");
+                    collision.transform.GetComponent<DragController>().enabled = false;
+                    //Debug.Log("stuck");
+                    collision.transform.SetParent(transform);
+                    //eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+                    collision.transform.localPosition = new Vector3(0, 0, 0);
 
+                    tick.gameObject.SetActive(true);
 
-                tick.gameObject.SetActive(true);
-
-                //transform.gameObject.SetActive(false);
-
-
+                    //transform.gameObject.SetActive(false);
+                }
             }
+            else if (jenisAnodKatod == "katod")
+            {
+                if (collision.name.Equals("watarKatod"))
+                {
+                    Debug.Log("katod2");
+                    collision.transform.GetComponent<DragController>().enabled = false;
+                    //Debug.Log("stuck");
+                    collision.transform.SetParent(transform);
+                    //eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+                    collision.transform.localPosition = new Vector3(0, 0, 0);
+
+                    tick.gameObject.SetActive(true);
+
+                    //transform.gameObject.SetActive(false);
+                }
+            }
+            ConditionalCheck.GetComponent<ConditionalCheck>().CheckCondition();
         }
     }
-
-
 }
