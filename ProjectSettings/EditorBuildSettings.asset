@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Quiz/Uji Diri 6.unity
     guid: 8642c00605fc1614da88e4eabedef481
   - enabled: 1
+    path: Assets/Scenes/Quiz/Uji Diri 7.unity
+    guid: c1f4d737f40d16f49a81abd099f4dd10
+  - enabled: 1
     path: Assets/Scenes/Quiz/Uji Diri 3.unity
     guid: 81d2e15fe2cfa93489f55c9a33168e19
   - enabled: 1
