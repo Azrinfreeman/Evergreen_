@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class DragController : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDragHandler
 {
@@ -59,7 +60,10 @@ public class DragController : MonoBehaviour, IDragHandler, IEndDragHandler, IBeg
     public void OnEndDrag(PointerEventData eventData)
     {
         //   Debug.Log("OnEndDrag");
-        GetComponent<RectTransform>().localRotation = Quaternion.Euler(0, 0, 0);
+        if (SceneManager.GetActiveScene().name != "akt4")
+        {
+            GetComponent<RectTransform>().localRotation = Quaternion.Euler(0, 0, 0);
+        }
         GetComponent<CanvasGroup>().alpha = 1f;
         GetComponent<CanvasGroup>().blocksRaycasts = true;
 

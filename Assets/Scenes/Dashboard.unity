@@ -9691,8 +9691,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "PENYELESAIAN MASALAH\n (PROBLEM SOLVING)"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13839,8 +13839,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: KOMUNIKASI (COMMUNICATIONS)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29358,8 +29358,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: NEXT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32435,7 +32435,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 5c3f758ad7d676449bf987931f506c76, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -32444,7 +32444,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 1.99
 --- !u!222 &271189259
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -39197,8 +39197,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: KOLABORASI (COLLABORATION)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -42790,7 +42790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &366504055
 RectTransform:
   m_ObjectHideFlags: 0
@@ -59408,8 +59408,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pembangunan Modal Insan
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -65641,8 +65641,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5c3f758ad7d676449bf987931f506c76, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -65650,7 +65650,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 1.92
 --- !u!222 &586691291
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -70922,8 +70922,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: KENAPA STEM ITU PENTING?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -79466,8 +79466,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5c3f758ad7d676449bf987931f506c76, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -79475,7 +79475,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 1.92
 --- !u!222 &720875827
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -88042,8 +88042,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fb2c4dbc4d485d142a81fc47fae90a11, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5c3f758ad7d676449bf987931f506c76, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -88051,7 +88051,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 3.21
 --- !u!222 &784514166
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -102526,8 +102526,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: AKTIVITI 6
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
-  m_sharedMaterial: {fileID: 7189577551444371045, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -103843,8 +103843,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5c3f758ad7d676449bf987931f506c76, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -103852,7 +103852,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2.19
 --- !u!222 &926968151
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -110668,8 +110668,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5c3f758ad7d676449bf987931f506c76, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -110677,7 +110677,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2.19
 --- !u!222 &1003444038
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -110745,8 +110745,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: kemahiran dan kelayakan untuk anda menceburi kerjaya pada masa akan datang.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -114731,8 +114731,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: JOM BELAJAR KONSEP STEM
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -116889,8 +116889,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: AKTIVITI 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
-  m_sharedMaterial: {fileID: 7189577551444371045, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -117803,8 +117803,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5c3f758ad7d676449bf987931f506c76, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -117812,7 +117812,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 1.92
 --- !u!222 &1054331236
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -120069,8 +120069,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'AKTIVITI 1: APAKAH STEM'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -125267,7 +125267,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1124827401
 RectTransform:
   m_ObjectHideFlags: 0
@@ -138082,8 +138082,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: KENAPA STEM?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -148203,8 +148203,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: UJI DIRI
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -148867,8 +148867,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Untuk Menyelesaikan Masalah Persekitaran Dengan Pantas
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -151691,8 +151691,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Komunikasi \ndan Kerjasama"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -156824,10 +156824,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Penggunaan Kemahrian Baharu & Maklumat Berkaitan
+  m_text: Penggunaan Kemahrian Baharu Dan Maklumat Berkaitan
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -161528,8 +161528,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5c3f758ad7d676449bf987931f506c76, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -161537,7 +161537,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2.19
 --- !u!222 &1418490445
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -164176,8 +164176,8 @@ MonoBehaviour:
   m_text: Teknologi pada masa akan datang adalah dalam bentuk di luar kotak pemikiran
     ( thinking out of the box)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -168115,8 +168115,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1.0.3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -170781,8 +170781,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5c3f758ad7d676449bf987931f506c76, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -170790,7 +170790,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 1.92
 --- !u!222 &1504925330
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -174524,7 +174524,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1541627525
 RectTransform:
   m_ObjectHideFlags: 0
@@ -179963,8 +179963,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: AKTIVITI 5
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
-  m_sharedMaterial: {fileID: 7189577551444371045, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -185600,8 +185600,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5c3f758ad7d676449bf987931f506c76, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -185609,7 +185609,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2.19
 --- !u!222 &1631637147
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -201023,7 +201023,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 308.25, y: 0}
+  m_SizeDelta: {x: 216.2614, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!225 &1777251255
 CanvasGroup:
@@ -213584,8 +213584,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: MENGAPA PENDIDIKAN STEM?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -213856,8 +213856,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: AKTIVITI 7
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
-  m_sharedMaterial: {fileID: 7189577551444371045, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -214507,8 +214507,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: OVERVIEW
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
-  m_sharedMaterial: {fileID: 7189577551444371045, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -219272,7 +219272,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1943717865
 RectTransform:
   m_ObjectHideFlags: 0
@@ -224054,7 +224054,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Kemahiran Abad Ke-21
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -224118,7 +224118,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1987408448
@@ -227652,8 +227652,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5c3f758ad7d676449bf987931f506c76, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -227661,7 +227661,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 1.92
 --- !u!222 &2025665121
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -229266,8 +229266,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PEMIKIRAN KRITIKAL (CRITICAL THINKING)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -232037,8 +232037,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: AKTIVITI 3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
-  m_sharedMaterial: {fileID: 7189577551444371045, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -232248,8 +232248,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: AKTIVITI 2
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
-  m_sharedMaterial: {fileID: 7189577551444371045, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -232413,7 +232413,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2073096077
 RectTransform:
   m_ObjectHideFlags: 0
@@ -233111,8 +233111,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: KREATIVITI (CREATIVITY)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -236811,8 +236811,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: AKTIVITI 4
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
-  m_sharedMaterial: {fileID: 7189577551444371045, guid: f9dabdd88d793a04396e9030544b52d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -237435,8 +237435,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Sebagai seorang MURID, anda melengkapkan diri anda dengan
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
+  m_sharedMaterial: {fileID: -9000908787416703487, guid: a73f9d6982282b5498c886f51c364fa8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -240325,8 +240325,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fb2c4dbc4d485d142a81fc47fae90a11, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5c3f758ad7d676449bf987931f506c76, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -240334,7 +240334,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2.8
 --- !u!222 &2134903515
 CanvasRenderer:
   m_ObjectHideFlags: 0

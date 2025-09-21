@@ -20,7 +20,7 @@ public class ItemSlot : MonoBehaviour, IDropHandler
         tick = transform.GetChild(0).GetComponent<Transform>();
     }
 
-    // Update is called once per frame
+    // Update is called once `r frame
     void Update() { }
 
     public void OnDrop(PointerEventData eventData)
