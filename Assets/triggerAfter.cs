@@ -56,6 +56,11 @@ public class triggerAfter : MonoBehaviour
                 transform.gameObject.SetActive(false);
                 triggerController.CheckItemAct4_3();
             }
+            else if (collision.gameObject.name == "plasmid2")
+            {
+                transform.gameObject.SetActive(false);
+                triggerController.CheckItemAct4_6();
+            }
         }
     }
 }
