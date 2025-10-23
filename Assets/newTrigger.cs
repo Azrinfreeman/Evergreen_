@@ -36,6 +36,10 @@ public class newTrigger : MonoBehaviour
                 }
                 else
                 {
+                    if (GetComponent<Animator>())
+                    {
+                        GetComponent<Animator>().Play("dropletStart");
+                    }
                     for (int i = 0; i < itemtodo.Count; i++)
                     {
                         itemtodo[i].gameObject.SetActive(true);

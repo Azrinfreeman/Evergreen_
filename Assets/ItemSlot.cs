@@ -14,6 +14,8 @@ public class ItemSlot : MonoBehaviour, IDropHandler
 
     public string nameScene;
 
+    public Transform ButtonNext;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +53,47 @@ public class ItemSlot : MonoBehaviour, IDropHandler
 
     void OnTriggerStay2D(Collider2D collision)
     {
+        if (SceneManager.GetActiveScene().name == "akt7")
+        {
+            if (ConditionalCheck.name == "3")
+            {
+                if (jenisAnodKatod == "anod")
+                {
+                    Debug.Log("anod");
+                    if (collision.name.Equals("rubberfilm"))
+                    {
+                        collision.transform.GetComponent<DragController>().enabled = false;
+                        //Debug.Log("stuck");
+                        collision.transform.SetParent(transform);
+                        //eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+                        collision.transform.localPosition = new Vector3(0, 0, 0);
+
+                        tick.gameObject.SetActive(true);
+                        ButtonNext.gameObject.SetActive(true);
+                        //transform.gameObject.SetActive(false);
+                    }
+                }
+            }
+            if (ConditionalCheck.name == "2")
+            {
+                if (jenisAnodKatod == "anod")
+                {
+                    Debug.Log("anod");
+                    if (collision.name.Equals("rubberfilm"))
+                    {
+                        collision.transform.GetComponent<DragController>().enabled = false;
+                        //Debug.Log("stuck");
+                        collision.transform.SetParent(transform);
+                        //eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+                        collision.transform.localPosition = new Vector3(0, 0, 0);
+
+                        tick.gameObject.SetActive(true);
+                        ButtonNext.gameObject.SetActive(true);
+                        //transform.gameObject.SetActive(false);
+                    }
+                }
+            }
+        }
         if (ConditionalCheck.name == "0 (2)")
         {
             if (jenisAnodKatod == "anod")
@@ -69,10 +112,42 @@ public class ItemSlot : MonoBehaviour, IDropHandler
                     //transform.gameObject.SetActive(false);
                 }
             }
+            else if (jenisAnodKatod == "anod2")
+            {
+                Debug.Log("anod");
+                if (collision.name.Equals("anodElektrod2"))
+                {
+                    collision.transform.GetComponent<DragController>().enabled = false;
+                    //Debug.Log("stuck");
+                    collision.transform.SetParent(transform);
+                    //eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+                    collision.transform.localPosition = new Vector3(0, 0, 0);
+
+                    tick.gameObject.SetActive(true);
+
+                    //transform.gameObject.SetActive(false);
+                }
+            }
             else if (jenisAnodKatod == "katod")
             {
                 Debug.Log("katod");
                 if (collision.name.Equals("katodElektrod"))
+                {
+                    collision.transform.GetComponent<DragController>().enabled = false;
+                    //Debug.Log("stuck");
+                    collision.transform.SetParent(transform);
+                    //eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+                    collision.transform.localPosition = new Vector3(0, 0, 0);
+
+                    tick.gameObject.SetActive(true);
+
+                    //transform.gameObject.SetActive(false);
+                }
+            }
+            else if (jenisAnodKatod == "katod2")
+            {
+                Debug.Log("katod2");
+                if (collision.name.Equals("katodElektrod2"))
                 {
                     collision.transform.GetComponent<DragController>().enabled = false;
                     //Debug.Log("stuck");
@@ -152,6 +227,41 @@ public class ItemSlot : MonoBehaviour, IDropHandler
 
                     tick.gameObject.SetActive(true);
 
+                    //transform.gameObject.SetActive(false);
+                }
+            }
+        }
+        else if (ConditionalCheck.name == "0 (8)")
+        {
+            if (jenisAnodKatod == "anod")
+            {
+                Debug.Log("anod");
+                if (collision.name.Equals("anodElektrod"))
+                {
+                    collision.transform.GetComponent<DragController>().enabled = false;
+                    //Debug.Log("stuck");
+                    collision.transform.SetParent(transform);
+                    //eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+                    collision.transform.localPosition = new Vector3(0, 0, 0);
+
+                    tick.gameObject.SetActive(true);
+                    ButtonNext.gameObject.SetActive(true);
+                    //transform.gameObject.SetActive(false);
+                }
+            }
+            else if (jenisAnodKatod == "katod")
+            {
+                Debug.Log("katod");
+                if (collision.name.Equals("katodElektrod"))
+                {
+                    collision.transform.GetComponent<DragController>().enabled = false;
+                    //Debug.Log("stuck");
+                    collision.transform.SetParent(transform);
+                    //eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+                    collision.transform.localPosition = new Vector3(0, 0, 0);
+
+                    tick.gameObject.SetActive(true);
+                    ButtonNext.gameObject.SetActive(true);
                     //transform.gameObject.SetActive(false);
                 }
             }
