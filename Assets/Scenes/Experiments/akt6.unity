@@ -8357,7 +8357,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &214920640
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8612,7 +8612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &219795573
 RectTransform:
   m_ObjectHideFlags: 0
@@ -34825,7 +34825,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -54}
+  m_AnchoredPosition: {x: 0, y: -72}
   m_SizeDelta: {x: 0, y: 88.8104}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1031358719
@@ -34848,7 +34848,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Makmal Maya 1: Penkulturan Baketria \n(Cara A: Agar-agar nutrien)"
+  m_text: "Makmal Maya 6: \nLangkah-Langkah Pembuatan Mikrobial Fuel Cell (MFC) untuk
+    Pelajar \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -55710,9 +55711,9 @@ RectTransform:
   - {fileID: 407522923}
   m_Father: {fileID: 1628266867}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2143.6196, y: -125.3168}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 191.627, y: 169.6675}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1646286416
@@ -65622,9 +65623,9 @@ RectTransform:
   - {fileID: 1553585092}
   m_Father: {fileID: 1628266867}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1703.8536, y: -125.3168}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 191.627, y: 169.6675}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1973908200
@@ -70406,9 +70407,9 @@ RectTransform:
   - {fileID: 1934957124}
   m_Father: {fileID: 1628266867}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 119.971176, y: -125.3168}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 467.924, y: 551.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &1942949414727172567
@@ -70427,9 +70428,9 @@ RectTransform:
   - {fileID: 1575274689}
   m_Father: {fileID: 1628266867}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 825.40295, y: -125.3168}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 189.4649, y: 169.6675}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1948020860219581404
@@ -70503,9 +70504,9 @@ RectTransform:
   - {fileID: 1829975490}
   m_Father: {fileID: 1628266867}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 426.3968, y: -125.3168}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 112.2697, y: 169.6675}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &6044840963996292940
@@ -70524,9 +70525,9 @@ RectTransform:
   - {fileID: 822319032}
   m_Father: {fileID: 1628266867}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1264.0878, y: -125.3168}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 191.627, y: 169.6675}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7170416117419986396
